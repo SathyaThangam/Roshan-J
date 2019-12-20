@@ -64,11 +64,15 @@
 .about {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     .about {
         flex-direction: column;
+    }
+    .menu {
+        display: none;
     }
 }
 
@@ -77,6 +81,13 @@
     height: auto;
     background: white;
     margin-left: 100px;
+}
+
+@media(max-width:600px) {
+    .we {
+        width: 80%;
+        margin: 30px 30px 30px 30px;
+    }
 }
 
 .we h1 {
@@ -103,6 +114,18 @@
     width: 392px;
     height: 289px;
     margin: 41px 118px 43px 112px;
+}
+
+@media(max-width:600px) {
+    .about-img {
+        width: 80%;
+        margin: 30px 30px 30px 30px;
+    }
+    .about-img img {
+        width: 392px;
+        height: 289px;
+        margin: 50px 50px 50px 15px;
+    }
 }
 
 .about button {
@@ -177,6 +200,14 @@
     perspective: 1000px;
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@media(max-width:600px) {
+    .flip {
+        flex-direction: column;
+        margin: 50px 50px 50px 50px;
+    }
 }
 
 .flip-card-inner-one {
@@ -187,6 +218,7 @@
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    margin-bottom: 46px;
 }
 
 .flip-card-inner-two {
@@ -196,6 +228,7 @@
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    margin-bottom: 46px;
 }
 
 .flip-card-inner-three {
@@ -375,10 +408,17 @@
 
 .overall-icon {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100%;
     height: auto;
     margin-top: 50px;
+}
+
+@media(max-width:500px) {
+    .overall-icon {
+        flex-direction: column;
+    }
 }
 
 .icon {
@@ -392,6 +432,12 @@
     align-self: center;
     margin-left: 43%;
     margin-bottom: 26px;
+}
+
+@media(max-width:500px) {
+    .icon img {
+        margin-left: 50%;
+    }
 }
 
 .icon p {
@@ -411,6 +457,18 @@
     color: white;
     font-size: 13px;
     padding: 40px 100px 40px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:500px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+.social {
+    margin-bottom: 30px;
 }
 
 .social a {
