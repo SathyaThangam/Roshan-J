@@ -1,0 +1,425 @@
+.overall-div {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    z-index: 0;
+}
+
+.header {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 0% 5% 0% 5%;
+    z-index: 3;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+@media(max-width:500px) {
+    .logo {
+        justify-content: flex-start;
+    }
+}
+
+.logo img {
+    max-width: 166px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu button {
+    font-family: Lato;
+    color: #252525;
+    font-size: 18px;
+    border: none;
+    background: white;
+    margin: 20px 15px 15px 10px;
+}
+
+.menu button:hover {
+    color: #EC6543;
+}
+
+.changing-image {
+    height: auto;
+    width: 100%;
+}
+
+.changing-image img {
+    height: 800px;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:500px) {
+    .about {
+        flex-direction: column;
+    }
+}
+
+.we {
+    width: 41%;
+    height: auto;
+    background: white;
+    margin-left: 100px;
+}
+
+.we h1 {
+    color: #252525;
+    font-family: Lato;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.we p {
+    color: rgb(136, 136, 136);
+    line-height: 1.63043em;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.about-img {
+    width: 50%;
+    height: auto;
+}
+
+.about-img img {
+    width: 392px;
+    height: 289px;
+    margin: 41px 118px 43px 112px;
+}
+
+.about button {
+    height: 50px;
+    width: 120px;
+    color: #EC6543;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(221, 81, 46);
+}
+
+.about button:hover {
+    color: white;
+    background-color: #EC6543;
+}
+
+.our-solution {
+    text-align: center;
+}
+
+.our-solution a {
+    font-size: 36px;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.turning-btns {
+    width: 100%;
+    height: auto;
+}
+
+.do {
+    text-align: center;
+}
+
+.hub {
+    margin: 100px 98px 0px 98px;
+}
+
+.hub p {
+    color: rgb(136, 136, 136);
+    line-height: 1.63043em;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.career {
+    display: flex;
+    justify-content: center;
+}
+
+.career button {
+    height: 50px;
+    width: 90px;
+    color: #EC6543;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(221, 81, 46);
+}
+
+.career button:hover {
+    background-color: rgb(221, 81, 46);
+    color: white;
+}
+
+.flip {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    perspective: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flip-card-inner-one {
+    position: relative;
+    height: 258px;
+    width: 369px;
+    background: transparent;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-inner-two {
+    position: relative;
+    height: 258px;
+    width: 369px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-inner-three {
+    position: relative;
+    height: 258px;
+    width: 369px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-one:hover .flip-card-inner-one {
+    transform: rotateY(180deg);
+}
+
+.flip-card-two:hover .flip-card-inner-two {
+    transform: rotateY(180deg);
+}
+
+.flip-card-three:hover .flip-card-inner-three {
+    transform: rotateY(180deg);
+}
+
+.one,
+.one-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.one {
+    background-color: #bbb;
+    color: black;
+}
+
+.one-back {
+    background-color: #2980b9;
+    color: transparent;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.two,
+.two-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.two {
+    background-color: #bbb;
+    color: black;
+}
+
+.two-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.three,
+.three-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.three {
+    background-color: #bbb;
+    color: black;
+}
+
+.three-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.one-back button,
+.two-back button,
+.three-back button {
+    width: 100px;
+    height: 40px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.one-back button:hover,
+.two-back button:hover,
+.three-back button:hover {
+    background: cornsilk;
+}
+
+.one p,
+.two p,
+.three p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.one {
+    background: #3097d9;
+    height: 258px;
+    width: 369px;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    font-size: 200px;
+    color: white;
+}
+
+.one-back {
+    background: #3097d9;
+    height: 258px;
+    width: 369px;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    color: white;
+    line-height: 30px;
+    backface-visibility: hidden;
+}
+
+.two {
+    background: #348c26;
+    height: 258px;
+    width: 369px;
+    border-radius: 40px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    font-size: 200px;
+    color: white;
+}
+
+.two-back {
+    background: #348c26;
+    height: 258px;
+    width: 369px;
+    border-radius: 40px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    color: white;
+    line-height: 30px;
+    backface-visibility: hidden;
+}
+
+.three {
+    background: #981b21;
+    height: 258px;
+    width: 369px;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    font-size: 200px;
+    color: white;
+}
+
+.three-back {
+    background: #981b21;
+    height: 258px;
+    width: 369px;
+    border-radius: 10px;
+    border: none;
+    transition: color 0.5s, transform 1s;
+    color: white;
+    line-height: 30px;
+    backface-visibility: hidden;
+}
+
+.overall-icon {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.icon {
+    background-color: white;
+    line-height: 30px;
+}
+
+.icon img {
+    width: 30px;
+    height: 25px;
+    align-self: center;
+    margin-left: 43%;
+    margin-bottom: 26px;
+}
+
+.icon p {
+    font-size: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal"
+
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    padding: 40px 100px 40px 100px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+}

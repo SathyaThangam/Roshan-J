@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Exponential Hub</title>
+    <script>
+        /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+        if (typeof WebFontConfig === "undefined") {
+            WebFontConfig = new Object();
+        }
+        WebFontConfig['google'] = {
+            families: ['Lato', 'Montserrat']
+        };
+
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="Exponential Hub &raquo; Feed" href="https://expohub.tech/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Exponential Hub &raquo; Comments Feed" href="https://expohub.tech/comments/feed/" />
+    <!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+    <!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+    <!-- No UA code set -->
+    <!-- / Google Analytics by MonsterInsights -->
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/expohub.tech\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"
+            }
+        };
+        ! function(e, a, t) {
+            var r, n, o, i, p = a.createElement("canvas"),
+                s = p.getContext && p.getContext("2d");
+
+            function c(e, t) {
+                var a = String.fromCharCode;
+                s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+                var r = p.toDataURL();
+                return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+            }
+
+            function l(e) {
+                if (!s || !s.fillText) return !1;
+                switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+                    case "flag":
+                        return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+                    case "emoji":
+                        return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+                }
+                return !1
+            }
+
+            function d(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (i = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='js_composer_front-css' href='https://expohub.tech/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='https://expohub.tech/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='https://expohub.tech/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='essential-grid-plugin-settings-css' href='https://expohub.tech/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=2.3.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='tp-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='tp-raleway-css' href='https://fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='tp-droid-serif-css' href='https://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C700&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='tp-fontello-css' href='https://expohub.tech/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=2.3.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-shortcodes-inc-css' href='https://expohub.tech/wp-content/plugins/modeltheme-framework/inc/shortcodes/shortcodes.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-mt-mega-menu-css' href='https://expohub.tech/wp-content/plugins/modeltheme-framework/css/mt-mega-menu.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='https://expohub.tech/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8.3' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+    <link rel='stylesheet' id='font-awesome-css' href='https://expohub.tech/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-responsive-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/responsive.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-media-screens-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/media-screens.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-carousel-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/owl.carousel.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-theme-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/owl.theme.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/animate.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-style-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/styles.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-mt-style-css' href='https://expohub.tech/wp-content/themes/quintuswp/style.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-header-style-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/styles-headers.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-footer-style-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/styles-footer.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='sidebarEffects-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/sidebarEffects.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='loaders-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/loaders.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='rippler-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/rippler.min.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='simple-line-icons-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/simple-line-icons.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/js_composer.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-gutenberg-frontend-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/gutenberg-frontend.css?ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-fonts-css' href='//fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic%2Clatin-ext%2Clatin%7CMontserrat%3Aregular%2C700%2Clatin&#038;ver=1.0.0'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='quintuswp-custom-style-css' href='https://expohub.tech/wp-content/themes/quintuswp/css/custom-editor-style.css?ver=5.3.2' type='text/css' media='all' />
+    <style id='quintuswp-custom-style-inline-css' type='text/css'>
+        #header {
+            margin: 0 auto;
+            background-color: wheat !important;
+        }
+        
+        body .quintuswp_preloader_holder {
+            background-color: #252525;
+        }
+        
+        .is_header_semitransparent .navbar-default {
+            background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+        }
+        
+        .is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+            background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+        }
+        
+        footer .footer {
+            background-color: #252525 !important;
+        }
+        
+        .breadcrumb a::after {
+            content: "/";
+        }
+        
+        .logo img,
+        .navbar-header .logo img {
+            max-width: 166px;
+        }
+        
+         ::selection {
+            color: #ffffff;
+            background: #EC6543;
+        }
+        
+         ::-moz-selection {
+            /* Code for Firefox */
+            color: #ffffff;
+            background: #EC6543;
+        }
+        
+        a {
+            color: #EC6543;
+        }
+        
+        a:focus,
+        a:visited,
+        a:hover {
+            color: #252525;
+        }
+        /*------------------------------------------------------------------
+		        COLOR
+		    ------------------------------------------------------------------*/
+        
+        a,
+        a:hover,
+        a:focus,
+        span.amount,
+        .widget_popular_recent_tabs .nav-tabs li.active a,
+        .widget_product_categories .cat-item:hover,
+        .widget_product_categories .cat-item a:hover,
+        .widget_archive li:hover,
+        .widget_archive li a:hover,
+        .widget_categories .cat-item:hover,
+        .widget_categories li a:hover,
+        .pricing-table.recomended .button.solid-button,
+        .pricing-table .table-content:hover .button.solid-button,
+        .pricing-table.Recommended .button.solid-button,
+        .pricing-table.recommended .button.solid-button,
+        #sync2 .owl-item.synced .post_slider_title,
+        #sync2 .owl-item:hover .post_slider_title,
+        #sync2 .owl-item:active .post_slider_title,
+        .pricing-table.recomended .button.solid-button,
+        .pricing-table .table-content:hover .button.solid-button,
+        .testimonial-author,
+        .testimonials-container blockquote::before,
+        .testimonials-container blockquote::after,
+        .post-author>a,
+        h2 span,
+        label.error,
+        .author-name,
+        .comment_body .author_name,
+        .prev-next-post a:hover,
+        .prev-text,
+        .wpb_button.btn-filled:hover,
+        .next-text,
+        .social ul li a:hover i,
+        .wpcf7-form span.wpcf7-not-valid-tip,
+        .text-dark .statistics .stats-head *,
+        .wpb_button.btn-filled,
+        footer ul.menu li.menu-item a:hover,
+        .widget_meta a:hover,
+        .widget_pages a:hover,
+        .simple_sermon_content_top h4,
+        .widget_recent_entries_with_thumbnail li:hover a,
+        .widget_recent_entries li a:hover,
+        .sidebar-content .widget_nav_menu li a:hover {
+            color: #EC6543;
+            /*Color: Main blue*/
+        }
+        /*------------------------------------------------------------------
+		        BACKGROUND + BACKGROUND-COLOR
+		    ------------------------------------------------------------------*/
+        
+        .tagcloud>a:hover,
+        .modeltheme-icon-search,
+        .wpb_button::after,
+        .rotate45,
+        .latest-posts .post-date-day,
+        .latest-posts h3,
+        .latest-tweets h3,
+        .latest-videos h3,
+        .button.solid-button,
+        button.vc_btn,
+        .pricing-table.recomended .table-content,
+        .pricing-table .table-content:hover,
+        .pricing-table.Recommended .table-content,
+        .pricing-table.recommended .table-content,
+        .pricing-table.recomended .table-content,
+        .pricing-table .table-content:hover,
+        .block-triangle,
+        .owl-theme .owl-controls .owl-page span,
+        body .vc_btn.vc_btn-blue,
+        body a.vc_btn.vc_btn-blue,
+        body button.vc_btn.vc_btn-blue,
+        .pagination .page-numbers.current,
+        .pagination .page-numbers:hover,
+        #subscribe>button[type='submit'],
+        .social-sharer>li:hover,
+        .prev-next-post a:hover .rotate45,
+        .masonry_banner.default-skin,
+        .form-submit input,
+        .member-header::before,
+        .member-header::after,
+        .member-footer .social::before,
+        .member-footer .social::after,
+        .subscribe>button[type='submit'],
+        .no-results input[type='submit'],
+        h3#reply-title::after,
+        .newspaper-info,
+        .categories_shortcode .owl-controls .owl-buttons i:hover,
+        .widget-title:after,
+        h2.heading-bottom:after,
+        .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active,
+        #primary .main-content ul li:not(.rotate45)::before,
+        .wpcf7-form .wpcf7-submit,
+        ul.ecs-event-list li span,
+        #contact_form2 .solid-button.button,
+        .navbar-default .navbar-toggle .icon-bar,
+        .details-container>div.details-item .amount,
+        .details-container>div.details-item ins,
+        .modeltheme-search .search-submit,
+        .pricing-table.recommended .table-content .title-pricing,
+        .pricing-table .table-content:hover .title-pricing,
+        .pricing-table.recommended .button.solid-button,
+        #navbar ul.sub-menu li a:hover,
+        .post-category-date a[rel="tag"],
+        #navbar .mt-icon-list-item:hover,
+        footer .mc4wp-form-fields input[type="submit"],
+        .pricing-table .table-content:hover .button.solid-button,
+        footer .footer-top .menu .menu-item a::before,
+        .post-password-form input[type='submit'] {
+            background: #EC6543;
+        }
+        
+        .modeltheme-search.modeltheme-search-open .modeltheme-icon-search,
+        .no-js .modeltheme-search .modeltheme-icon-search,
+        .modeltheme-icon-search:hover,
+        .latest-posts .post-date-month,
+        .button.solid-button:hover,
+        body .vc_btn.vc_btn-blue:hover,
+        body a.vc_btn.vc_btn-blue:hover,
+        .post-category-date a[rel="tag"]:hover,
+        .single-post-tags>a:hover,
+        body button.vc_btn.vc_btn-blue:hover,
+        #contact_form2 .solid-button.button:hover,
+        .subscribe>button[type='submit']:hover,
+        footer .mc4wp-form-fields input[type="submit"]:hover,
+        .no-results input[type='submit']:hover,
+        ul.ecs-event-list li span:hover,
+        .pricing-table.recommended .table-content .price_circle,
+        .pricing-table .table-content:hover .price_circle,
+        #modal-search-form .modal-content input.search-input,
+        .wpcf7-form .wpcf7-submit:hover,
+        .form-submit input:hover,
+        .pricing-table.recommended .button.solid-button:hover,
+        .error-return-home.text-center>a:hover,
+        .pricing-table .table-content:hover .button.solid-button:hover,
+        .post-password-form input[type='submit']:hover {
+            background: #252525;
+        }
+        
+        .tagcloud>a:hover {
+            background: #252525 !important;
+        }
+        
+        .flickr_badge_image a::after,
+        .thumbnail-overlay,
+        .portfolio-hover,
+        .pastor-image-content .details-holder,
+        .item-description .holder-top,
+        blockquote::before {
+            background: .95;
+        }
+        /*------------------------------------------------------------------
+		        BORDER-COLOR
+		    ------------------------------------------------------------------*/
+        
+        .comment-form input,
+        .comment-form textarea,
+        .author-bio,
+        blockquote,
+        .widget_popular_recent_tabs .nav-tabs>li.active,
+        body .left-border,
+        body .right-border,
+        body .member-header,
+        body .member-footer .social,
+        body .button[type='submit'],
+        .navbar ul li ul.sub-menu,
+        .wpb_content_element .wpb_tabs_nav li.ui-tabs-active,
+        #contact-us .form-control:focus,
+        .sale_banner_holder:hover,
+        .testimonial-img,
+        .wpcf7-form input:focus,
+        .wpcf7-form textarea:focus,
+        .navbar-default .navbar-toggle:hover,
+        .header_search_form,
+        .navbar-default .navbar-toggle {
+            border-color: #EC6543;
+            /*Color: Main blue */
+        }
+    </style>
+    <script type='text/javascript' src='https://expohub.tech/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/essential-grid/public/assets/js/jquery.esgbox.min.js?ver=2.3.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/essential-grid/public/assets/js/jquery.themepunch.tools.min.js?ver=2.3.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.3'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/skip-link-focus-fix.js?ver=5.3.2'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/love-it.js?ver=5.3.2'></script>
+    <link rel='https://api.w.org/' href='https://expohub.tech/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://expohub.tech/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://expohub.tech/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.3.2" />
+    <link rel="canonical" href="https://expohub.tech/" />
+    <link rel='shortlink' href='https://expohub.tech/' />
+    <link rel="alternate" type="application/json+oembed" href="https://expohub.tech/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fexpohub.tech%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://expohub.tech/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fexpohub.tech%2F&#038;format=xml" />
+    <!--[if IE 9]> <script>var _gambitParallaxIE9 = true;</script> <![endif]-->
+    <script type="text/javascript">
+        var ajaxRevslider;
+
+        jQuery(document).ready(function() {
+            // CUSTOM AJAX CONTENT LOADING FUNCTION
+            ajaxRevslider = function(obj) {
+
+                // obj.type : Post Type
+                // obj.id : ID of Content to Load
+                // obj.aspectratio : The Aspect Ratio of the Container / Media
+                // obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+                var content = "";
+
+                data = {};
+
+                data.action = 'revslider_ajax_call_front';
+                data.client_action = 'get_slider_html';
+                data.token = '665a97bb79';
+                data.type = obj.type;
+                data.id = obj.id;
+                data.aspectratio = obj.aspectratio;
+
+                // SYNC AJAX REQUEST
+                jQuery.ajax({
+                    type: "post",
+                    url: "https://expohub.tech/wp-admin/admin-ajax.php",
+                    dataType: 'json',
+                    data: data,
+                    async: false,
+                    success: function(ret, textStatus, XMLHttpRequest) {
+                        if (ret.success == true)
+                            content = ret.data;
+                    },
+                    error: function(e) {
+                        console.log(e);
+                    }
+                });
+
+                // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+                return content;
+            };
+
+            // CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+            var ajaxRemoveRevslider = function(obj) {
+                return jQuery(obj.selector + " .rev_slider").revkill();
+            };
+
+            // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+            var extendessential = setInterval(function() {
+                if (jQuery.fn.tpessential != undefined) {
+                    clearInterval(extendessential);
+                    if (typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+                        jQuery.fn.tpessential.defaults.ajaxTypes.push({
+                            type: "revslider",
+                            func: ajaxRevslider,
+                            killfunc: ajaxRemoveRevslider,
+                            openAnimationSpeed: 0.3
+                        });
+                        // type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+                        // func: the Function Name which is Called once the Item with the Post Type has been clicked
+                        // killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+                        // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+                    }
+                }
+            }, 30);
+        });
+    </script>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://expohub.tech/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <link rel="icon" href="https://expohub.tech/wp-content/uploads/2019/03/exponential-Hub-Logo-150x150.png" sizes="32x32" />
+    <link rel="icon" href="https://expohub.tech/wp-content/uploads/2019/03/exponential-Hub-Logo-e1554052253935.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="https://expohub.tech/wp-content/uploads/2019/03/exponential-Hub-Logo-e1554052253935.png" />
+    <meta name="msapplication-TileImage" content="https://expohub.tech/wp-content/uploads/2019/03/exponential-Hub-Logo-e1554052253935.png" />
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                e.c = jQuery(e.c);
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        };
+    </script>
+    <style type="text/css" id="wp-custom-css">
+        header {
+            background-color: white;
+        }
+        
+        .header-info-group p {
+            font-size: 15px;
+            margin: 0;
+            font-weight: 300 !important;
+            font-size: 13px;
+            color: black;
+        }
+        
+        .header-title-breadcrumb {
+            Display: none !important;
+        }
+        
+        .navbar-toggle {
+            position: relative;
+            float: right;
+            top: 25px;
+            margin-right: 15px;
+            padding: 9px 10px;
+            top: 25px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background-color: black;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+    </style>
+    <style type="text/css" title="dynamic-css" class="options-output">
+        .quintuswp_preloader_holder {
+            background-color: #EC6543;
+        }
+        
+        .fixed-sidebar-menu {
+            background-color: rgba(37, 37, 37, 0.95);
+        }
+        
+        #navbar .menu-item>a,
+        .navbar-nav .search_products a,
+        .navbar-default .navbar-nav>li>a:hover,
+        .navbar-default .navbar-nav>li>a:focus,
+        .navbar-default .navbar-nav>li>a {
+            color: #252525;
+        }
+        
+        #navbar .menu-item.selected>a,
+        #navbar .menu-item:hover>a {
+            color: #EC6543;
+        }
+        
+        #navbar .sub-menu,
+        .navbar ul li ul.sub-menu {
+            background-color: #252525;
+        }
+        
+        #navbar ul.sub-menu li a {
+            color: #ffffff;
+        }
+        
+        #navbar ul.sub-menu li a:hover {
+            background-color: transparent;
+        }
+        
+        #navbar ul.sub-menu li a:hover {
+            color: #EC6543;
+        }
+        
+        body {
+            font-family: Lato;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading body {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading body {
+            visibility: hidden;
+        }
+        
+        h1,
+        h1 span {
+            font-family: Montserrat;
+            line-height: 36px;
+            font-size: 36px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h1,
+        .wf-loading h1 span {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h1,
+        .ie.wf-loading h1 span {
+            visibility: hidden;
+        }
+        
+        h2 {
+            font-family: Montserrat;
+            line-height: 30px;
+            font-size: 30px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h2 {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h2 {
+            visibility: hidden;
+        }
+        
+        h3 {
+            font-family: Montserrat;
+            line-height: 24px;
+            font-size: 24px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h3 {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h3 {
+            visibility: hidden;
+        }
+        
+        h4 {
+            font-family: Montserrat;
+            line-height: 18px;
+            font-size: 18px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h4 {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h4 {
+            visibility: hidden;
+        }
+        
+        h5 {
+            font-family: Montserrat;
+            line-height: 14px;
+            font-size: 14px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h5 {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h5 {
+            visibility: hidden;
+        }
+        
+        h6 {
+            font-family: Montserrat;
+            line-height: 12px;
+            font-size: 12px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading h6 {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading h6 {
+            visibility: hidden;
+        }
+        
+        input,
+        textarea {
+            font-family: Lato;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading input,
+        .wf-loading textarea {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading input,
+        .ie.wf-loading textarea {
+            visibility: hidden;
+        }
+        
+        input[type="submit"] {
+            font-family: Lato;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading input[type="submit"] {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading input[type="submit"] {
+            visibility: hidden;
+        }
+        
+        .navbar-default {
+            background-color: #ffffff;
+        }
+        
+        header {
+            color: #FFFFFF;
+        }
+        
+        .fixed-sidebar-menu {
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        
+        footer .footer-top {
+            background-color: #252525;
+        }
+        
+        footer .footer-top h1.widget-title,
+        footer .footer-top h3.widget-title,
+        footer .footer-top .widget-title {
+            color: #ffffff;
+        }
+        
+        footer .footer {
+            background-color: #252525;
+        }
+        
+        footer .footer h1.widget-title,
+        footer .footer h3.widget-title,
+        footer .footer .widget-title {
+            color: #ffffff;
+        }
+        
+        .single article .article-content p {
+            font-family: Lato;
+            line-height: 29px;
+            color: #454646;
+            font-size: 18px;
+            opacity: 1;
+            visibility: visible;
+            -webkit-transition: opacity 0.24s ease-in-out;
+            -moz-transition: opacity 0.24s ease-in-out;
+            transition: opacity 0.24s ease-in-out;
+        }
+        
+        .wf-loading .single article .article-content p {
+            opacity: 0;
+        }
+        
+        .ie.wf-loading .single article .article-content p {
+            visibility: hidden;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+            color: #666666;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+            background-color: #f8f8f8;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels,
+        .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels::after,
+        .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels::before,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+            border-color: #f0f0f0;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a {
+            color: #666666;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a {
+            background-color: #ebebeb;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab>a {
+            border-color: #e3e3e3;
+        }
+        
+        blockquote {
+            background-color: #f6f6f6;
+        }
+        
+        blockquote {
+            border-color: #EC6543;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a {
+            color: #666666;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+            background-color: #f8f8f8;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+            border-color: #f0f0f0;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+            color: #666666;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:focus,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:hover {
+            background-color: #f8f8f8;
+        }
+        
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::after,
+        .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body::before {
+            border-color: #f0f0f0;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1557721659242 {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+        
+        .vc_custom_1557723583557 {
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+        
+        .vc_custom_1475066783855 {
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+        
+        .vc_custom_1475066778372 {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+        }
+        
+        .vc_custom_1557722581471 {
+            margin-top: 0px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+        }
+        
+        .vc_custom_1557722594940 {
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+        }
+    </style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home page-template-default page page-id-869   header5 is_header_semitransparent  wpb-js-composer js-comp-ver-5.7 vc_responsive">
+
+
+
+
+
+
+    <!-- PAGE #page -->
+    <div id="page" class="hfeed site">
+        <header class="header5">
+            <!-- BOTTOM BAR -->
+            <nav class="navbar navbar-default" id="modeltheme-main-head">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- LOGO -->
+                        <div class="navbar-header col-md-12">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                            <h1 class="logo text-center">
+                                <a href="https://expohub.tech">
+                                    <img src="https://expohub.tech/wp-content/uploads/2019/04/Logo.jpg" alt="Exponential Hub" />
+                                </a>
+                            </h1>
+                        </div>
+
+
+                        <!-- NAV MENU -->
+                        <div id="navbar" class="navbar-collapse collapse col-md-12">
+                            <div class="menu-main-menu-container">
+                                <ul id="menu-main-menu" class="menu">
+                                    <li id="menu-item-6116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-869 current_page_item menu-item-6116"><a href="https://expohub.tech/" aria-current="page">Home</a></li>
+                                    <li id="menu-item-6115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6115"><a href="https://expohub.tech/about-us/">About Us</a></li>
+                                    <li id="menu-item-6150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6150"><a href="https://expohub.tech/our-programs/">Our Solutions</a></li>
+                                    <li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="https://expohub.tech/careers/">Careers</a></li>
+                                    <li id="menu-item-6393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6393"><a href="https://expohub.tech/investment/">Investment</a></li>
+                                    <li id="menu-item-6147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6147"><a href="https://expohub.tech/contact-us/">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="theme_header_slider">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:700%2C400%7CLato:400%2C700" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+            <div id="rev_slider_6_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:#1f1d24;padding:0px;margin-top:0px;margin-bottom:0px;">
+                <!-- START REVOLUTION SLIDER 5.4.8.3 fullwidth mode -->
+                <div id="rev_slider_6_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8.3">
+                    <ul>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-11" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="https://expohub.tech/wp-content/uploads/2019/05/About-us-1900x1200-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="First Slider" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="https://expohub.tech/wp-content/uploads/2019/05/About-us-1900x1200.jpg" alt="" title="About us 1900&#215;1200" width="1900" height="1200" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption Creative-Title   tp-resizeme" id="slide-11-layer-16" data-x="['center','center','center','center']" data-hoffset="['-376','-73','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-248','-105','-96','-123']"
+                                data-fontsize="['90','70','50','70']" data-lineheight="['100','70','55','85']" data-color="['rgb(89,89,89)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','none','374']" data-height="none"
+                                data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 90px; line-height: 100px; font-weight: 700; color: #595959; letter-spacing: px;font-family:Montserrat;">About us </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-11-layer-18" data-x="['center','center','center','center']" data-hoffset="['-251','93','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-139','-14','0','-36']" data-fontsize="['24','24','20','20']"
+                                data-lineheight="['34','34','22','22']" data-fontweight="['400','400','400','700']" data-color="['rgb(89,89,89)','rgb(89,89,89)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','578','461']" data-height="['none','none','78','none']"
+                                data-whitespace="['nowrap','nowrap','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 400; color: #595959; letter-spacing: px;font-family:Lato;">We are a team of dreamers with a vision to create amazing things. </br> Diversity is one of the things we value so that each and everyone </br>of our team member has a unique and colorful background. </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption rev-btn " id="slide-11-layer-19" data-x="['center','center','center','center']" data-hoffset="['-385','-141','0','0']" data-y="['top','top','top','top']" data-voffset="['364','422','540','400']" data-fontsize="['14','14','14','17']"
+                                data-lineheight="['14','14','14','17']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/expohub.tech\/about-us\/","delay":""}]'
+                                data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(37,37,37,0.95);bc:rgba(37,37,37,0.95);bs:solid;bw:0 0 0 0;"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Montserrat;background-color:rgba(37,37,37,1);border-color:rgba(37,37,37,1);border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">About Us </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-12" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="https://expohub.tech/wp-content/uploads/2019/05/our-solutions-1800x1200-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="First Slider" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="https://expohub.tech/wp-content/uploads/2019/05/our-solutions-1800x1200.jpg" alt="" title="our solutions 1800&#215;1200" width="1800" height="1200" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone"
+                                data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption Creative-Title   tp-resizeme" id="slide-12-layer-16" data-x="['center','center','center','center']" data-hoffset="['-282','0','3','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-355','-107','0','57']" data-fontsize="['90','70','70','70']"
+                                data-lineheight="['100','70','85','85']" data-color="['rgb(255,255,255)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','none','374']" data-height="['none','none','none','91']" data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                                data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 90px; line-height: 100px; font-weight: 700; letter-spacing: px;font-family:Montserrat;">Our Solutions </div>
+
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-12-layer-18" data-x="['center','center','center','center']" data-hoffset="['-278','0','0','0']" data-y="['middle','middle','middle','top']" data-voffset="['-248','0','0','381']" data-fontsize="['24','24','20','20']"
+                                data-lineheight="['34','34','22','22']" data-color="['rgb(255,255,255)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','578','425']" data-height="['none','none','78','79']" data-whitespace="['nowrap','nowrap','normal','normal']"
+                                data-visibility="['on','on','off','off']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 400; color: #ffffff; letter-spacing: px;font-family:Lato;">We are the startup studio. Our products are companies. </br>We build digital and technology startups. </div>
+
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption rev-btn " id="slide-12-layer-19" data-x="['center','center','center','center']" data-hoffset="['-326','0','0','0']" data-y="['top','top','top','top']" data-voffset="['239','486','538','472']" data-fontsize="['14','14','14','17']"
+                                data-lineheight="['14','14','14','17']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/expohub.tech\/our-programs\/","delay":""}]'
+                                data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(37,37,37,0.95);bc:rgba(37,37,37,0.95);bs:solid;bw:0 0 0 0;"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Montserrat;background-color:rgba(37,37,37,1);border-color:rgba(37,37,37,1);border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">OUR Solutions </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-13" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="https://expohub.tech/wp-content/uploads/2019/05/joinUs-v2-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="First Slider" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="https://expohub.tech/wp-content/uploads/2019/05/joinUs-v2.jpg" alt="" title="joinUs-v2" width="1800" height="865" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110"
+                                data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 7 -->
+                            <div class="tp-caption Creative-Title   tp-resizeme" id="slide-13-layer-16" data-x="['center','center','center','center']" data-hoffset="['-418','-233','-200','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-116','-96','-178','-99']"
+                                data-fontsize="['90','70','50','70']" data-lineheight="['100','70','55','85']" data-color="['rgb(255,255,255)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','none','437']" data-height="['none','none','none','115']"
+                                data-whitespace="['nowrap','nowrap','nowrap','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":990,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 90px; line-height: 100px; font-weight: 700; letter-spacing: px;font-family:Montserrat;">Careers </div>
+
+                            <!-- LAYER NR. 8 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-13-layer-18" data-x="['center','center','center','center']" data-hoffset="['-249','-117','-58','0']" data-y="['middle','middle','top','middle']" data-voffset="['-1','-5','355','-28']" data-fontsize="['24','24','20','20']"
+                                data-lineheight="['34','34','22','22']" data-color="['rgb(255,255,255)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','578','422']" data-height="['none','none','78','79']" data-whitespace="['nowrap','nowrap','normal','normal']"
+                                data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['left','left','left','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 400; color: #ffffff; letter-spacing: px;font-family:Lato;">Exponential HUB is the utopia for the passionate people</br> with entrepreneur spirit. If you are a dreamer with a determination</br> to create amazing things, we would like to hear from you. </div>
+
+                            <!-- LAYER NR. 9 -->
+                            <div class="tp-caption rev-btn " id="slide-13-layer-19" data-x="['center','center','center','center']" data-hoffset="['-533','-351','-240','0']" data-y="['top','top','top','top']" data-voffset="['515','443','441','424']" data-fontsize="['14','14','14','17']"
+                                data-lineheight="['14','14','14','17']" data-fontweight="['700','700','700','400']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/expohub.tech\/careers\/","delay":""}]'
+                                data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:-50px;opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(37,37,37,0.95);bc:rgba(37,37,37,0.95);bs:solid;bw:0 0 0 0;"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Montserrat;background-color:rgba(37,37,37,1);border-color:rgba(37,37,37,1);border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Careers </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-38" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="https://expohub.tech/wp-content/uploads/2019/05/Investor1800x1200-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="First Slider" data-param1="01" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="https://expohub.tech/wp-content/uploads/2019/05/Investor1800x1200.jpg" alt="" title="Investor1800x1200" width="1800" height="1200" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 10 -->
+                            <div class="tp-caption Creative-Title   tp-resizeme" id="slide-38-layer-16" data-x="['center','center','center','center']" data-hoffset="['-317','0','3','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-344','-107','0','57']" data-fontsize="['90','70','70','70']"
+                                data-lineheight="['100','70','85','85']" data-color="['rgb(2,2,2)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','none','374']" data-height="['none','none','none','91']" data-whitespace="['nowrap','nowrap','nowrap','normal']"
+                                data-type="text" data-responsive_offset="on" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 90px; line-height: 100px; font-weight: 700; color: #020202; letter-spacing: px;font-family:Montserrat;">Investors </div>
+
+                            <!-- LAYER NR. 11 -->
+                            <div class="tp-caption   tp-resizeme" id="slide-38-layer-18" data-x="['center','center','center','center']" data-hoffset="['-251','0','0','0']" data-y="['middle','middle','middle','top']" data-voffset="['-227','0','0','381']" data-fontsize="['24','24','20','20']"
+                                data-lineheight="['34','34','22','22']" data-color="['rgb(2,2,2)','rgba(37,37,37,1)','rgba(37,37,37,1)','rgba(37,37,37,1)']" data-width="['none','none','578','425']" data-height="['none','none','78','79']" data-whitespace="['nowrap','nowrap','normal','normal']"
+                                data-visibility="['on','on','off','off']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 400; color: #020202; letter-spacing: px;font-family:Lato;">One of the countries with highest economic growth rate in the world,</br> Myanmar with a GDP growth rate of 6.4% in 2018/2019 </br> can offer a lot of opportunities for investment. </div>
+
+                            <!-- LAYER NR. 12 -->
+                            <div class="tp-caption rev-btn " id="slide-38-layer-19" data-x="['center','center','center','center']" data-hoffset="['-297','0','0','0']" data-y="['top','top','top','top']" data-voffset="['277','486','538','472']" data-fontsize="['14','14','14','17']"
+                                data-lineheight="['14','14','14','17']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/expohub.tech\/our-programs\/","delay":""}]'
+                                data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255,255,255,1);bg:rgba(37,37,37,0.95);bc:rgba(37,37,37,0.95);bs:solid;bw:0 0 0 0;"}]'
+                                data-textAlign="['center','center','center','center']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Montserrat;background-color:rgba(37,37,37,1);border-color:rgba(37,37,37,1);border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Investors </div>
+                        </li>
+                    </ul>
+                    <script>
+                        var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+                        var htmlDivCss = "";
+                        if (htmlDiv) {
+                            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                        } else {
+                            var htmlDiv = document.createElement("div");
+                            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                        }
+                    </script>
+                    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                </div>
+                <script>
+                    var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+                    var htmlDivCss = ".tp-caption.Creative-Title,.Creative-Title{color:#ffffff;font-size:70px;line-height:70px;font-weight:400;font-style:normal;font-family:Playfair Display;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px}";
+                    if (htmlDiv) {
+                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                    } else {
+                        var htmlDiv = document.createElement("div");
+                        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                    }
+                </script>
+                <script type="text/javascript">
+                    if (setREVStartSize !== undefined) setREVStartSize({
+                        c: '#rev_slider_6_1',
+                        responsiveLevels: [1240, 1024, 778, 480],
+                        gridwidth: [1240, 1024, 778, 480],
+                        gridheight: [868, 768, 960, 720],
+                        sliderLayout: 'fullwidth'
+                    });
+
+                    var revapi6,
+                        tpj;
+                    (function() {
+                        if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded", onLoad);
+                        else onLoad();
+
+                        function onLoad() {
+                            if (tpj === undefined) {
+                                tpj = jQuery;
+                                if ("off" == "on") tpj.noConflict();
+                            }
+                            if (tpj("#rev_slider_6_1").revolution == undefined) {
+                                revslider_showDoubleJqueryError("#rev_slider_6_1");
+                            } else {
+                                revapi6 = tpj("#rev_slider_6_1").show().revolution({
+                                    sliderType: "standard",
+                                    jsFileLocation: "//expohub.tech/wp-content/plugins/revslider/public/assets/js/",
+                                    sliderLayout: "fullwidth",
+                                    dottedOverlay: "none",
+                                    delay: 9000,
+                                    navigation: {
+                                        keyboardNavigation: "off",
+                                        keyboard_direction: "horizontal",
+                                        mouseScrollNavigation: "off",
+                                        mouseScrollReverse: "default",
+                                        onHoverStop: "off",
+                                        touch: {
+                                            touchenabled: "on",
+                                            touchOnDesktop: "off",
+                                            swipe_threshold: 75,
+                                            swipe_min_touches: 50,
+                                            swipe_direction: "horizontal",
+                                            drag_block_vertical: false
+                                        },
+                                        arrows: {
+                                            style: "gyges",
+                                            enable: true,
+                                            hide_onmobile: true,
+                                            hide_under: 780,
+                                            hide_onleave: true,
+                                            hide_delay: 500,
+                                            hide_delay_mobile: 1200,
+                                            tmp: '',
+                                            left: {
+                                                h_align: "left",
+                                                v_align: "center",
+                                                h_offset: 20,
+                                                v_offset: 0
+                                            },
+                                            right: {
+                                                h_align: "right",
+                                                v_align: "center",
+                                                h_offset: 20,
+                                                v_offset: 0
+                                            }
+                                        }
+                                    },
+                                    responsiveLevels: [1240, 1024, 778, 480],
+                                    visibilityLevels: [1240, 1024, 778, 480],
+                                    gridwidth: [1240, 1024, 778, 480],
+                                    gridheight: [868, 768, 960, 720],
+                                    lazyType: "none",
+                                    shadow: 0,
+                                    spinner: "off",
+                                    stopLoop: "off",
+                                    stopAfterLoops: -1,
+                                    stopAtSlide: -1,
+                                    shuffle: "off",
+                                    autoHeight: "off",
+                                    disableProgressBar: "on",
+                                    hideThumbsOnMobile: "off",
+                                    hideSliderAtLimit: 0,
+                                    hideCaptionAtLimit: 0,
+                                    hideAllCaptionAtLilmit: 0,
+                                    debugMode: false,
+                                    fallbacks: {
+                                        simplifyAll: "off",
+                                        nextSlideOnWindowFocus: "off",
+                                        disableFocusListener: false,
+                                    }
+                                });
+                            }; /* END OF revapi call */
+
+                        }; /* END OF ON LOAD FUNCTION */
+                    }()); /* END OF WRAPPING FUNCTION */
+                </script>
+            </div>
+            <!-- END REVOLUTION SLIDER -->
+        </div>
+        <!-- HEADER TITLE BREADCRUBS SECTION -->
+        <div class="header-title-breadcrumb relative">
+            <div class="header-title-breadcrumb-overlay text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 text-left">
+                            <h1>Main Home</h1>
+                        </div>
+                        <div class="col-md-5">
+                            <ol class="breadcrumb text-right"></ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!-- Page content -->
+        <div id="primary" class="no-padding content-area no-sidebar">
+            <div class="container">
+                <div class="row">
+                    <main id="main" class="col-md-12 site-main main-content">
+
+
+                        <article id="post-869" class="post-869 page type-page status-publish hentry">
+
+                            <div class="entry-content">
+                                <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1557721659242 vc_column-gap-15 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                    <div class="col-xs-12 col-sm-12 wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner vc_custom_1475066783855">
+                                            <div class="wpb_wrapper">
+                                                <div class='gambit_background_row' style='background-color: #ffffff;background-size: cover;background-position: center;'></div>
+                                                <h1 style="font-size: 30px;color: #252525;line-height: 30px;text-align: left;font-family:Montserrat;font-weight:700;font-style:normal" class="vc_custom_heading">About Exponential Hub</h1>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: Justify;">Who we are?</p>
+                                                        <p style="text-align: Justify;">We are a team of dreamers with a vision to create amazing things. Diversity is one of the things we value so that each and everyone of our team member has a unique and colorful background. Although
+                                                            diversity in nature, there are three things all of us share with the same spirit; passion, teamwork and positive impact on the society. We are the people who are trying to express their dreams
+                                                            to the world by using entrepreneurship as a way. Our vision is “Better me, better us, better world”</p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="vc_empty_space" style="height: 15px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_btn3-container vc_btn3-inline">
+                                                    <a onmouseleave="this.style.borderColor='#ec6543'; this.style.backgroundColor='transparent'; this.style.color='#ec6543'" onmouseenter="this.style.borderColor='#ec6543'; this.style.backgroundColor='#ec6543'; this.style.color='#ffffff';" style="border-color:#ec6543; color:#ec6543;"
+                                                        class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="https://expohub.tech/about-us/" title="About Us">ABOUT US</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner vc_custom_1475066778372">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_left-to-right left-to-right">
+                                                    <div class="wpb_wrapper">
+                                                        <p><img class="wp-image-6193 aligncenter" src="https://expohub.tech/wp-content/uploads/2019/04/Logo-300x228.jpg" alt="" width="364" height="276" srcset="https://expohub.tech/wp-content/uploads/2019/04/Logo-300x228.jpg 300w, https://expohub.tech/wp-content/uploads/2019/04/Logo.jpg 750w"
+                                                                sizes="(max-width: 364px) 100vw, 364px" /></p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_column-gap-5">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                                <h1 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading"><a href="https://expohub.tech/our-programs/" title="Solutions">Our Solutions</a></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1557723583557 vc_column-gap-15 vc_rtl-columns-reverse vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                    <div class="col-xs-12 col-sm-12 wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4">
+                                        <div class="vc_column-inner vc_custom_1557722581471">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc-hoverbox-wrapper  wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc-hoverbox-shape--rounded vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100">
+                                                    <div class="vc-hoverbox">
+                                                        <div class="vc-hoverbox-inner">
+                                                            <div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://expohub.tech/wp-content/uploads/2019/05/HEALTPPY-Logo-1024x854.jpg);">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc-hoverbox-block vc-hoverbox-back" style="background-color: #3097d9;">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-back-inner">
+                                                                    <h2 style="color: #ffffff;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">Healtppy</h2>
+                                                                    <p><span style="color: #ffffff;">We will provide digital healthcare platform to the society in order to build an affordable and equitable healthcare ecosystem in Myanmar.</span></p>
+
+                                                                    <div class="vc_btn3-container vc_btn3-inline">
+                                                                        <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://expohub.tech/our-programs/" title="Our Solutions">Read More</a></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4">
+                                        <div class="vc_column-inner vc_custom_1557722594940">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc-hoverbox-wrapper  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc-hoverbox-shape--round vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100">
+                                                    <div class="vc-hoverbox">
+                                                        <div class="vc-hoverbox-inner">
+                                                            <div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://expohub.tech/wp-content/uploads/2019/05/Final-Logo4.jpg);">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc-hoverbox-block vc-hoverbox-back" style="background-color: #348c26;">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-back-inner">
+                                                                    <h2 style="color: #ffffff;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">WeWalkers</h2>
+                                                                    <p><span style="color: #ffffff;">We will reward you for being healthy!!!</span></p>
+
+                                                                    <div class="vc_btn3-container vc_btn3-inline">
+                                                                        <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://expohub.tech/our-programs/" title="Our Solutions">Read More</a></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-4">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc-hoverbox-wrapper  wpb_animate_when_almost_visible wpb_right-to-left right-to-left vc-hoverbox-shape--rounded vc-hoverbox-align--center vc-hoverbox-direction--default vc-hoverbox-width--100">
+                                                    <div class="vc-hoverbox">
+                                                        <div class="vc-hoverbox-inner">
+                                                            <div class="vc-hoverbox-block vc-hoverbox-front" style="background-image: url(https://expohub.tech/wp-content/uploads/2019/05/We-Guard1.png);">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-front-inner">
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="vc-hoverbox-block vc-hoverbox-back" style="background-color: #981b21;">
+                                                                <div class="vc-hoverbox-block-inner vc-hoverbox-back-inner">
+                                                                    <h2 style="color: #ffffff;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">WeGuard</h2>
+                                                                    <p><span style="color: #ffffff;">You have a Smart Phone&#8230; Do you have a Smart Home ?</span></p>
+
+                                                                    <div class="vc_btn3-container vc_btn3-inline">
+                                                                        <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="https://expohub.tech/our-programs/" title="Our Solutions">Read More</a></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading">What you can do with us?</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p style="text-align: Justify;">Exponential HUB is the utopia for the passionate people with entrepreneur spirit. If you are a dreamer with a determination to create amazing things, we would like to hear from you. We want a person
+                                                            who always feel frustrated about the problem people face in their day-to-day, who always try to improve the way people are doing things, who are misfit in the group because of being a dreamer.</p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
+                                                <div class="vc_btn3-container vc_btn3-center">
+                                                    <a onmouseleave="this.style.borderColor='#ec6543'; this.style.backgroundColor='transparent'; this.style.color='#ec6543'" onmouseenter="this.style.borderColor='#ec6543'; this.style.backgroundColor='#ec6543'; this.style.color='#ffffff';" style="border-color:#ec6543; color:#ec6543;"
+                                                        class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-outline-custom" href="https://expohub.tech/careers/" title="Careers">Career</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-center">
+                                                    <div class="vc_icon_element-inner vc_icon_element-color-pink vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                                                        <span class="vc_icon_element-icon fa fa-briefcase"></span></div>
+                                                </div>
+                                                <p style="font-size: 15px;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">Work Time<br /> Monday to Friday - 8:15 AM - 5:00 PM<br /> Saturday - ALTERNATE CLOSED<br /> Sunday - CLOSED</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-center">
+                                                    <div class="vc_icon_element-inner vc_icon_element-color-pink vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                                                        <span class="vc_icon_element-icon fa fa-phone"></span></div>
+                                                </div>
+                                                <p style="font-size: 15px;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">Phone: +95(1)8619216</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-center">
+                                                    <div class="vc_icon_element-inner vc_icon_element-color-pink vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                                                        <span class="vc_icon_element-icon fa fa-envelope-open"></span></div>
+                                                </div>
+                                                <p style="font-size: 15px;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">career@expohub.tech</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-center">
+                                                    <div class="vc_icon_element-inner vc_icon_element-color-pink vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
+                                                        <span class="vc_icon_element-icon fa fa-map-marker"></span></div>
+                                                </div>
+                                                <p style="font-size: 15px;text-align: center;font-family:ABeeZee;font-weight:400;font-style:normal" class="vc_custom_heading">No(160), Bogyoke Aung San Road,<br /> Pazuntaung tsp,<br /> Yangon, Myanmar.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- .entry-content -->
+
+                        </article>
+                        <!-- #post-## -->
+
+                    </main>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <footer>
+            <!-- FOOTER TOP -->
+            <div class="row footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 footer-row-1">
+                            <div class="row">
+                                <div class="col-md-3 sidebar-1"></div>
+                                <div class="col-md-3 sidebar-2"></div>
+                                <div class="col-md-3 sidebar-3"></div>
+                                <div class="col-md-3 sidebar-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 footer-row-2">
+                            <div class="row">
+                                <div class="col-md-3 sidebar-1"></div>
+                                <div class="col-md-3 sidebar-2"></div>
+                                <div class="col-md-3 sidebar-3"></div>
+                                <div class="col-md-3 sidebar-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER BOTTOM -->
+            <div class="row footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="social-links">
+                                <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/exponential-hub/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <p class="copyright">©Copyright 2019 by Exponential Hub. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="quintuswp_preloader_holder v19_line_scale_pulse_out">
+        <div class="quintuswp_preloader v19_line_scale_pulse_out">
+            <div class="loaders">
+                <div class="loader">
+                    <div class="loader-inner line-scale-pulse-out">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function($) {
+            'use strict';
+
+            jQuery(".mt--services .single-service .plus-icon .icon-plus").on("click", function() {
+
+
+                var current_post_id = jQuery(this).parent().parent().parent().parent().find("input[name='post_id']").val();
+                var plus_icon = jQuery(this).parent();
+
+
+                var data = jQuery('.form_service').serialize();
+                jQuery.ajax({
+                    type: 'GET',
+                    url: "https://expohub.tech/wp-admin/admin-ajax.php",
+                    dataType: 'text',
+                    data: {
+                        action: 'mt_services',
+                        post_id: current_post_id
+                    },
+
+                    complete: function(xhr, status) {
+                        console.log("Request complete: " + status);
+                    },
+                    error: function(xhr, status, errorThrown) {
+                        console.log("Request failed: " + status);
+                    },
+                    success: function(data, status, xhr) {
+                        //console.log("Request success: " + data);
+
+                        console.log("Request success: ");
+                        jQuery(plus_icon).addClass('close-ajax');
+
+                        // Change the html 
+                        jQuery(".result-" + current_post_id).hide().html(data).slideDown('normal');
+
+                        // Close the ajax content
+                        jQuery('.mt--services .single-service .plus-icon .icon-close').on("click", function() {
+                            //console.log(thissdfasdfasd);
+                            jQuery(this).parent().removeClass('close-ajax');
+                            jQuery(this).parent().parent().parent().parent().find('.mt-ajax-content').slideUp('normal', function() {
+                                jQuery(this).remove();
+                            });
+                        })
+                    }
+                });
+            })
+
+        }(jQuery))
+    </script>
+    <script type="text/javascript">
+        function revslider_showDoubleJqueryError(sliderID) {
+            var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+            errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+            errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+            errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+            errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+            jQuery(sliderID).show().html(errorMessage);
+        }
+    </script>
+    <link rel='stylesheet' id='gambit_parallax-css' href='https://expohub.tech/wp-content/plugins/parallax-backgrounds-for-vc/parallax/css/style.css?ver=4.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css-css' href='https://expohub.tech/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_google_fonts_abril_fatfaceregular-css' href='https://fonts.googleapis.com/css?family=Abril+Fatface%3Aregular&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_google_fonts_abeezeeregularitalic-css' href='https://fonts.googleapis.com/css?family=ABeeZee%3Aregular%2Citalic&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='jp-front-select2-css' href='https://expohub.tech/wp-content/plugins/job-postings/css/select2.min.css?ver=2.3.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='jp-front-styles-css' href='https://expohub.tech/wp-content/plugins/job-postings/css/style.css?ver=2.3.6' type='text/css' media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "https:\/\/expohub.tech\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/jquery.lazyload.min.js?ver=1.9.3'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/perspective-slider/modernizr.custom.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/perspective-slider/classie.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-members-fancy/main.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/perspective-slider/main.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-plugins.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-events/jquery.mobile.custom.min.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-events/main.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-members-fancy/dynamics.min.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-jobs/snap.svg-min.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/mt-skills-circle/percircle.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/modeltheme-framework/js/modeltheme-custom.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/modernizr.custom.js?ver=2.6.2'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/classie.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.ketchup.js?ver=0.3.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.validation.js?ver=1.13.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.sticky.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/uisearch.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.parallax.js?ver=1.1.3'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.appear.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.countTo.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/sidebarEffects.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/owl.carousel.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/modernizr.viewport.js?ver=2.6.2'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/bootstrap.min.js?ver=3.3.1'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/animate.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.countdown.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/navigation.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/wow.min.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/jquery.stickit.min.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/loaders.css.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/themes/quintuswp/js/quintuswp-custom.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/parallax-backgrounds-for-vc/parallax/js/min/script-min.js?ver=4.5'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.7'></script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/job-postings/js/select2.min.js?ver=2.3.6'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var jpsd = {
+            "ajaxurl": "https:\/\/expohub.tech\/wp-admin\/admin-ajax.php",
+            "no_name": "Please input template name.",
+            "site_key": "",
+            "re_type": "",
+            "re_message": "Ups... reCaptcha identified you as a bot. If you are not, please reload and try again.",
+            "Not_valid_phone_number": "Not valid phone number",
+            "Not_valid_email": "Not valid email",
+            "Error_sending_notification": "Error sending notification message, but dont worry, We saved Your data securelly. Thank you.",
+            "validation": "20MB",
+            "max_filesize": "12"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='https://expohub.tech/wp-content/plugins/job-postings/js/script.js?ver=2.3.6'></script>
+</body>
+
+</html>
+<!--Generated by Endurance Page Cache-->
