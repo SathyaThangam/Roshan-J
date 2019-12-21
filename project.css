@@ -558,12 +558,14 @@
     color: black;
     font-size: 30px;
     font-family: Lato;
+    width: 750px;
 }
 
 .font-2 {
     color: white;
     font-size: 30px;
     font-family: Lato;
+    width: 750px;
 }
 
 .text-1 {
@@ -572,6 +574,7 @@
     margin-top: 40px;
     background-color: transparent;
     text-align: left;
+    line-height: 50px;
 }
 
 .text-2 {
@@ -594,6 +597,7 @@
     margin-top: 20px;
     background-color: transparent;
     text-align: center;
+    width: ;
 }
 
 body {
