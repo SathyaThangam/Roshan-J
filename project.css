@@ -54,7 +54,7 @@
 .slider-holder {
     width: 1300px;
     height: 650px;
-    background-color: yellow;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -64,7 +64,7 @@
 
 .image-holder {
     width: 5200px;
-    background-color: red;
+    background-color: white;
     height: 650px;
     clear: both;
     position: relative;
@@ -535,6 +535,65 @@
     color: white;
     font-size: 17px;
     font-weight: bold;
+}
+
+.image-holder button {
+    color: white;
+    background: black;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    height: 40px;
+    width: auto;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.image-holder button:hover {
+    background: white;
+    color: black;
+}
+
+.font-1 {
+    color: black;
+    font-size: 30px;
+    font-family: Lato;
+}
+
+.font-2 {
+    color: white;
+    font-size: 30px;
+    font-family: Lato;
+}
+
+.text-1 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.text-2 {
+    position: absolute;
+    margin-left: 1380px;
+    background-color: transparent;
+}
+
+.text-3 {
+    position: absolute;
+    margin-left: 2720px;
+    margin-top: 180px;
+    background-color: transparent;
+    text-align: left;
+}
+
+.text-4 {
+    position: absolute;
+    margin-left: 3950px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-align: center;
 }
 
 body {
